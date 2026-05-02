@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отсчет до Нового Года</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="./icons/new-year-logo.png"/>
+</head>
+<body class="dark">
+
+    <nav class="menu menu-hide" data-js-menu-container>
+        <ul class="menu__list">
+            <li class="menu__nav-elem">
+                <a href="../index.html" target="_blank">Главная</a>
+            </li>
+            <li class="menu__nav-elem">
+                <a href="./pages/days-passed.html" target="_blank">Сколько дней прошло с начала Нового Года</a>
+            </li>
+        </ul>
+
+        <i class='bx  bx-x bx-close-wrapper' data-js-close></i>
+    </nav>
+
+    <div class="info">
+        <div class="info__header">
+            <h1 class="info__header-text">До Нового Года осталось:</h1>
+        </div>
+    </div>
+
+    <div class="timer">
+        <div class="timer__border">
+            <div class="timer__item timer__days">
+                <h2 data-js-days>00</h2>
+                <p>Дней</p>
+            </div>
+            <div class="timer__item timer__hours">
+                <h2 data-js-hours>00</h2>
+                <p>Часов</p>
+            </div>
+            <div class="timer__item timer__minutes">
+                <h2 data-js-minutes>00</h2>
+                <p>Минут</p>
+            </div>
+            <div class="timer__item timer__seconds">
+                <h2 data-js-seconds>00</h2>
+                <p>Секунд</p>
+            </div>
+        </div>
+    </div>
+
+    <i class='bx  bx-moon bx-moon-wrapper' data-js-moon></i>
+    <i class='bx  bx-menu bx-menu-wrapper' data-js-menu></i>
+    
+    <script src="./js/theme.js" type="module"></script>
+    <script src="./js/timerLeft.js" type="module"></script>
+    <script src="./js/burgerMenu.js" type="module"></script>
+</body>
+</html>
