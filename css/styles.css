@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@keyframes burgerOpen {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes burgerClose {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
 :root {
     --dark-theme: #1e1e1e;
     --dark-theme-colortext: #e0e0e0;
@@ -67,6 +91,8 @@ body.dark .timer__border {
     height: 100dvh;
     background-color: #808080;
     color: #fff;
+    transition: opacity 0.4s ease; 
+    animation: burgerOpen 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 .menu__nav-elem {
@@ -75,10 +101,13 @@ body.dark .timer__border {
     font-size: 20px;
 }
 
-
-.menu.menu-hide {
-    display: none;
+.menu-hide {
+    animation: burgerClose 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
+
+/* .menu.menu-hide {
+    display: none;
+} */
 
 .info {
     display: flex;
