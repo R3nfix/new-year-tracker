@@ -101,13 +101,16 @@ body.dark .timer__border {
     font-size: 20px;
 }
 
+.menu__about {
+    display: inline-flex;
+    margin-right: 29px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .menu-hide {
     animation: burgerClose 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
-
-/* .menu.menu-hide {
-    display: none;
-} */
 
 .info {
     display: flex;
@@ -157,10 +160,59 @@ p {
     text-align: center;
 }
 
+.popup__container {
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -315px;
+    max-width: 1250px;
+    height: 200px;
+}
+
+.popup__container--hide {
+    display: none;
+}
+
+.popup {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #fff;
+    box-shadow: 7px 3px 8px 1px rgba(0,0,0,0.8);
+}
+
+.popup__header {
+    font-size: 32px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.popup__info, .popup__author, .popup__project-link {
+    font-size: 22px;
+}
+
+.popup__author {
+    padding-top: 30px;
+}
+
+.popup__project-link {
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
 .bx-moon-wrapper {
     position: absolute;
     top: 30px;
     right: 35px;
+}
+
+.bx-closepopup {
+    color: #DC143C;
 }
 
 .bx-moon, .bx-menu, .bx-x {

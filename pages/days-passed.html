@@ -12,10 +12,13 @@
     <nav class="menu menu-hide" data-js-menu-container>
         <ul class="menu__list">
             <li class="menu__nav-elem">
-                <a href="../index.html" target="_blank">Главная</a>
+                <a href="../index.html">Главная</a>
             </li>
             <li class="menu__nav-elem">
-                <a href="./pages/days-passed.html" target="_blank">Сколько дней прошло с начала Нового Года</a>
+                <a href="./pages/days-passed.html">Сколько дней прошло с начала Нового Года</a>
+            </li>
+            <li class="menu__nav-elem">
+                <p class="menu__about" data-js-openpopup>О сайте</p>
             </li>
         </ul>
 
@@ -49,11 +52,28 @@
         </div>
     </div>
 
+    <div class="popup__container popup__container--hide" data-js-popup>
+    <div class="popup">
+        <h3 class="popup__header">Информация о сайте</h3>
+        <p class="popup__info"><b>New Year Tracker</b> - это простое и удобное веб-приложение с интерактивным интерфейсом и
+        минималистичным дизайном для отслеживания времени до Нового года и подсчёта дней, прошедших с его начала. <br>
+        </p>
+        <p class="popup__author">
+            Автор: R3nfix
+        </p><br>
+        <a href="https://github.com/R3nfix/new-year-timer" class="popup__project-link" target="_blank">GitHub</a>
+
+        <i class='bx  bx-x bx-close-wrapper bx-closepopup' data-js-closepopup></i>
+
+    </div>
+    </div>
+
     <i class='bx  bx-moon bx-moon-wrapper' data-js-moon></i>
     <i class='bx  bx-menu bx-menu-wrapper' data-js-menu></i>
 
     <script src="../js/theme.js" type="module"></script>
     <script src="../js/timerPassed.js" type="module"></script>
     <script src="../js/burgerMenu.js" type="module"></script>
+    <script src="../js/popup.js" type="module"></script>
 </body>
 </html>
