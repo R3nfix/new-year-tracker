@@ -6,11 +6,11 @@ const burgerMenuButtonCloseElement = document.querySelector('[data-js-close]');
 
 burgerMenuButtonElement.addEventListener('click', () => {
     menuContainer.style.display = 'flex';
-    menuContainer.classList.remove('menu-hide');
+    menuContainer.classList.remove('menu__hide');
 });
 
 burgerMenuButtonCloseElement.addEventListener('click', () => {
-    menuContainer.classList.add('menu-hide');
+    menuContainer.classList.add('menu__hide');
 
     setTimeout(() => {
         menuContainer.style.display = 'none'; 
