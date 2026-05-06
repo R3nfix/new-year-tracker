@@ -50,7 +50,7 @@ const path = window.location.pathname;
 if (path.includes('index.html') || path === '/' || path === '/new-year-tracker/') {
     countdownNewYear();
     setInterval(countdownNewYear, 1000);
-} else if (path.includes('days-passed.html')) {
+} else if (path.includes('days-passed.html') || path === 'days-passed') {
     countdownAfterNewYear();
     setInterval(countdownAfterNewYear, 1000);
 }
