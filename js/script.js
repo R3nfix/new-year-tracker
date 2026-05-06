@@ -45,10 +45,12 @@ function countdownAfterNewYear() {
     seconds.innerHTML = s;
 }
 
-if (window.location.pathname.includes('index.html') || window.location.pathname === '/') {
+const path = window.location.pathname;
+
+if (path.includes('index.html') || path === '/' || path === '/new-year-tracker/') {
     countdownNewYear();
     setInterval(countdownNewYear, 1000);
-} else if (window.location.pathname.includes('days-passed.html')) {
+} else if (path.includes('days-passed.html')) {
     countdownAfterNewYear();
     setInterval(countdownAfterNewYear, 1000);
 }
