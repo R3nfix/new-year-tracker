@@ -1,7 +1,5 @@
 'use strict';
 
-import { themeHandler, toggleDarkTheme } from "./theme.js";
-
 const days = document.querySelector('[data-js-days]');
 const hours = document.querySelector('[data-js-hours]');
 const minutes = document.querySelector('[data-js-minutes]');

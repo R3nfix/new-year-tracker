@@ -1,7 +1,5 @@
 'use strict';
 
-export { themeHandler, toggleDarkTheme };
-
 const body = document.body;
 const darkThemeButtonElement = document.querySelector('[data-js-moon]');
 
