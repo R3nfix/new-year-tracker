@@ -27,7 +27,7 @@ The project is implemented in pure JavaScript using Multi-Page Architecture (MPA
 * CSS3
 * JavaScript (Vanilla)
 
-Проект реализован на чистом JavaScript с использованием многостраничной архитектуры (MPA)
+Проект реализован на чистом JavaScript с использованием многостраничной архитектуры (MPA).
 
 [Основная ссылка](https://r3nfix.github.io/new-year-tracker/)  
 [Альтернативная ссылка netlify](href="new-year-tracker.netlify.app) (может не работать без VPN в России)
