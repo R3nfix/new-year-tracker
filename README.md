@@ -14,7 +14,7 @@ The application uses two timers to track the time remaining until New Year's and
 The project is implemented in pure JavaScript using Multi-Page Architecture (MPA).
 
 [Main link](https://r3nfix.github.io/new-year-tracker/)  
-[Alternative link netlify](href="new-year-tracker.netlify.app) (may not work without VPN in Russia)
+[Alternative link netlify](https://new-year-tracker.netlify.app) (may not work without VPN in Russia)
 
 ### [RU]
 
@@ -30,7 +30,7 @@ The project is implemented in pure JavaScript using Multi-Page Architecture (MPA
 Проект реализован на чистом JavaScript с использованием многостраничной архитектуры (MPA).
 
 [Основная ссылка](https://r3nfix.github.io/new-year-tracker/)  
-[Альтернативная ссылка netlify](href="new-year-tracker.netlify.app) (может не работать без VPN в России)
+[Альтернативная ссылка netlify](https://new-year-tracker.netlify.app) (может не работать без VPN в России)
 
 <img src="./photos/1.png/" width=600 height=auto>
 <img src="./photos/2.png/" width=600 height=auto>
